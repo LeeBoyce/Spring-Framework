@@ -37,27 +37,18 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.61" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.1.61" level="project" />
-    <orderEntry type="module" module-name="spring-context_main" />
     <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-tx_main" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="module" module-name="spring-instrument_main" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.1.61" level="project" />
     <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-context_main" />
     <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-instrument_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-tx_main" />
-    <orderEntry type="module" module-name="spring-instrument_main" />
-    <orderEntry type="module" module-name="spring-expression_main" />
-    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-beans_main" />
     <orderEntry type="module" module-name="spring-core_main" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -67,12 +58,21 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="module" module-name="spring-jcl_main" />
     <orderEntry type="library" name="Gradle: javax.transaction:javax.transaction-api:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.hsqldb:hsqldb:2.4.0" level="project" />
     <orderEntry type="library" name="Gradle: com.h2database:h2:1.4.196" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.derby:derby:10.14.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.derby:derbyclient:10.14.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
   </component>

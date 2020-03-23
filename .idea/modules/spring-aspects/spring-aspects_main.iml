@@ -36,10 +36,19 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -54,41 +63,29 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-orm_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-expression_main" />
-    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.13" level="project" />
-    <orderEntry type="module" module-name="spring-jcl_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-tx_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-jdbc_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-instrument_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-orm_main" />
     <orderEntry type="module" module-name="spring-beans_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-jcl_main" />
-    <orderEntry type="module" module-name="spring-instrument_main" />
-    <orderEntry type="module" module-name="spring-core_main" />
-    <orderEntry type="module" module-name="spring-context_main" />
-    <orderEntry type="module" module-name="spring-beans_main" />
-    <orderEntry type="module" module-name="spring-tx_main" />
-    <orderEntry type="module" module-name="spring-core_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-jdbc_main" />
-    <orderEntry type="module" module-name="spring-aop_main" />
-    <orderEntry type="module" module-name="spring-context-support_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-context-support_main" />
     <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
-    <orderEntry type="library" name="Gradle: javax.cache:cache-api:1.0.0" level="project" />
-    <orderEntry type="library" name="Gradle: javax.transaction:javax.transaction-api:1.2" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-cglib-repack-3.2.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="module" module-name="spring-context-support_main" />
+    <orderEntry type="module" module-name="spring-context-support_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="module" module-name="spring-jdbc_main" />
+    <orderEntry type="module" module-name="spring-core_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-tx_main" />
+    <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-tx_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-core_main" />
+    <orderEntry type="module" module-name="spring-instrument_main" />
+    <orderEntry type="module" module-name="spring-jcl_main" />
+    <orderEntry type="library" name="Gradle: org.aspectj:aspectjweaver:1.8.13" level="project" />
+    <orderEntry type="module" module-name="spring-orm_main" />
+    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-instrument_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module" module-name="spring-jdbc_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-jcl_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-expression_main" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -98,5 +95,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: javax.cache:cache-api:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: javax.transaction:javax.transaction-api:1.2" level="project" />
   </component>
 </module>

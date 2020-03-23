@@ -37,29 +37,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/MySource/gradle-4.10.3/lib/groovy-all-2.4.15.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/MySource/gradle-4.10.3/lib/gradle-installation-beacon-4.10.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/4.10.3/generated-gradle-jars/gradle-api-4.10.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -147,6 +128,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -156,6 +138,24 @@
         <SOURCES>
           <root url="file://$USER_HOME$/MySource/gradle-4.10.3/src/installation-beacon" />
         </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/4.10.3/generated-gradle-jars/gradle-api-4.10.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/MySource/gradle-4.10.3/lib/gradle-installation-beacon-4.10.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>
