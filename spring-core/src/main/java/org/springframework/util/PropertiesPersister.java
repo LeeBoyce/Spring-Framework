@@ -56,7 +56,7 @@ public interface PropertiesPersister {
 	 * @param reader the Reader to load from
 	 * @throws IOException in case of I/O errors
 	 */
-	void lozad(Properties props, Reader reader) throws IOException;
+	void load(Properties props, Reader reader) throws IOException;
 
 	/**
 	 * Write the contents of the given Properties object to the
