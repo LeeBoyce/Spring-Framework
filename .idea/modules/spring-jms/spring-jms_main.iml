@@ -37,30 +37,21 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.2" level="project" />
-    <orderEntry type="library" name="Gradle: javax.resource:javax.resource-api:1.7" level="project" />
-    <orderEntry type="module" module-name="spring-messaging_main" />
     <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-aop_main" />
-    <orderEntry type="module" module-name="spring-oxm_main" />
-    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-expression_main" />
-    <orderEntry type="module" module-name="spring-instrument_main" />
     <orderEntry type="module" module-name="spring-instrument_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-instrument_main" />
+    <orderEntry type="library" name="Gradle: javax.resource:javax.resource-api:1.7" level="project" />
+    <orderEntry type="module" module-name="spring-aop_main" />
     <orderEntry type="module" module-name="spring-oxm_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-messaging_main" />
+    <orderEntry type="module" module-name="spring-oxm_main" />
     <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-tx_main" />
     <orderEntry type="module" module-name="spring-beans_main" />
     <orderEntry type="module" module-name="spring-core_main" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -70,10 +61,19 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../spring-core/build/libs/spring-objenesis-repack-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="module" module-name="spring-jcl_main" />
     <orderEntry type="library" name="Gradle: javax.jms:javax.jms-api:2.0.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: javax.transaction:javax.transaction-api:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.2" level="project" />
   </component>

@@ -254,6 +254,7 @@ public abstract class AbstractBeanDefinitionReader implements EnvironmentCapable
 	public int loadBeanDefinitions(String... locations) throws BeanDefinitionStoreException {
 		Assert.notNull(locations, "Location array must not be null");
 		int counter = 0;
+		//循环配置文件路径
 		for (String location : locations) {
 			counter += loadBeanDefinitions(location);
 		}

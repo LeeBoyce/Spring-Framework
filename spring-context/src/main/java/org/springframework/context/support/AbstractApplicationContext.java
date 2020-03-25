@@ -513,6 +513,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 
 	@Override
 	public void refresh() throws BeansException, IllegalStateException {
+		//加锁.没有明确对象，只是想让一段代码同步，可以创建Object startupShutdownMonitor = new Object()
 		synchronized (this.startupShutdownMonitor) {
 			// Prepare this context for refreshing.
 			prepareRefresh();
@@ -581,8 +582,10 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	 * active flag as well as performing any initialization of property sources.
 	 */
 	protected void prepareRefresh() {
+		//启动时间
 		this.startupDate = System.currentTimeMillis();
 		this.closed.set(false);
+		//设置为活跃转改
 		this.active.set(true);
 
 		if (logger.isInfoEnabled()) {
@@ -590,6 +593,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 		}
 
 		// Initialize any placeholder property sources in the context environment
+		//初始化配置文件中的占位符,但函数为空
 		initPropertySources();
 
 		// Validate that all properties marked as required are resolvable
@@ -617,6 +621,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	 * @see #getBeanFactory()
 	 */
 	protected ConfigurableListableBeanFactory obtainFreshBeanFactory() {
+		//刷新Bean工厂
 		refreshBeanFactory();
 		ConfigurableListableBeanFactory beanFactory = getBeanFactory();
 		if (logger.isDebugEnabled()) {
