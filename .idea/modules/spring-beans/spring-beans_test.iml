@@ -37,10 +37,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="spring-core_test" production-on-test="" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.61" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.1.61" level="project" />
     <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-core_test" production-on-test="" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.1.61" level="project" />
     <orderEntry type="module" module-name="spring-core_main" />
     <orderEntry type="module-library">
       <library>

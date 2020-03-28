@@ -421,7 +421,9 @@ public class BeanDefinitionParserDelegate {
 			aliases.addAll(Arrays.asList(nameArr));
 		}
 
+		//将id作为bean名称
 		String beanName = id;
+		//如果beanName为空，则将第一个别名作为beanName
 		if (!StringUtils.hasText(beanName) && !aliases.isEmpty()) {
 			beanName = aliases.remove(0);
 			if (logger.isDebugEnabled()) {
@@ -431,9 +433,11 @@ public class BeanDefinitionParserDelegate {
 		}
 
 		if (containingBean == null) {
+			//检测当前beanName是否唯一
 			checkNameUniqueness(beanName, aliases, ele);
 		}
 
+		//解析<bean>元素中信息，并生成对应Bean实例
 		AbstractBeanDefinition beanDefinition = parseBeanDefinitionElement(ele, beanName, containingBean);
 		if (beanDefinition != null) {
 			if (!StringUtils.hasText(beanName)) {
@@ -512,17 +516,20 @@ public class BeanDefinitionParserDelegate {
 		}
 
 		try {
+			//设置bean相关信息
 			AbstractBeanDefinition bd = createBeanDefinition(className, parent);
 
 			parseBeanDefinitionAttributes(ele, beanName, containingBean, bd);
 			bd.setDescription(DomUtils.getChildElementValueByTagName(ele, DESCRIPTION_ELEMENT));
-
+            //解析<meta>
 			parseMetaElements(ele, bd);
 			parseLookupOverrideSubElements(ele, bd.getMethodOverrides());
 			parseReplacedMethodSubElements(ele, bd.getMethodOverrides());
 
 			parseConstructorArgElements(ele, bd);
+			//解析<property>
 			parsePropertyElements(ele, bd);
+			//解析<qualifier>
 			parseQualifierElements(ele, bd);
 
 			bd.setResource(this.readerContext.getResource());

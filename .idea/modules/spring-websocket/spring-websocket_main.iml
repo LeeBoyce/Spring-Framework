@@ -36,39 +36,39 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.glassfish.grizzly:grizzly-http-server:2.3.25" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-io:9.4.7.v20170914" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-client:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.7.v20170914" level="project" />
-    <orderEntry type="module" module-name="spring-messaging_main" scope="PROVIDED" />
-    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-websocket:8.5.23" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-webapp:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-server:1.13.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-http:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-client:1.13.1" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-container-grizzly-client:1.13.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-security:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlet:9.4.7.v20170914" level="project" />
-    <orderEntry type="module" module-name="spring-context_main" />
-    <orderEntry type="module" module-name="spring-webmvc_main" />
-    <orderEntry type="module" module-name="spring-webmvc_main" scope="PROVIDED" />
-    <orderEntry type="library" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
-    <orderEntry type="module" module-name="spring-jcl_main" scope="PROVIDED" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: org.glassfish.grizzly:grizzly-http:2.3.25" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.xnio:xnio-nio:3.3.8.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-core:1.13.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-container-servlet:1.13.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-util:8.5.23" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-security:9.4.7.v20170914" level="project" />
     <orderEntry type="module" module-name="spring-messaging_main" />
     <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-spi:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlet:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-webapp:9.4.7.v20170914" level="project" />
+    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module" module-name="spring-webmvc_main" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-server:1.13.1" level="project" />
+    <orderEntry type="module" module-name="spring-webmvc_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-websockets-jsr:1.4.21.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-http:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-core:1.4.21.Final" level="project" />
+    <orderEntry type="module" module-name="spring-jcl_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: io.undertow:undertow-servlet:1.4.21.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-io:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-client:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.grizzly:grizzly-http:2.3.25" level="project" />
+    <orderEntry type="module" module-name="spring-messaging_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-util:8.5.23" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-container-servlet:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-core:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-websocket:8.5.23" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.glassfish.tyrus:tyrus-container-grizzly-client:1.13.1" level="project" />
     <orderEntry type="module" module-name="spring-web_main" />
     <orderEntry type="module" module-name="spring-aop_main" />
     <orderEntry type="module" module-name="spring-beans_main" />

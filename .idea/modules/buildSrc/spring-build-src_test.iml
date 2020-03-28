@@ -40,6 +40,26 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$USER_HOME$/MySource/gradle-4.10.3/lib/gradle-installation-beacon-4.10.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/MySource/gradle-4.10.3/src/installation-beacon" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/MySource/gradle-4.10.3/lib/groovy-all-2.4.15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://$USER_HOME$/.gradle/caches/4.10.3/generated-gradle-jars/gradle-api-4.10.3.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -119,27 +139,7 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/MySource/gradle-4.10.3/lib/gradle-installation-beacon-4.10.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$USER_HOME$/MySource/gradle-4.10.3/src/installation-beacon" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="module" module-name="spring-build-src_main" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/MySource/gradle-4.10.3/lib/groovy-all-2.4.15.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>

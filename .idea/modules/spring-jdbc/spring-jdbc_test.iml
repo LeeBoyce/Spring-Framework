@@ -37,29 +37,29 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="spring-beans_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-aop_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-core_test" production-on-test="" />
     <orderEntry type="module" module-name="spring-jcl_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-tx_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-expression_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-aop_main" />
     <orderEntry type="module" module-name="spring-expression_main" />
-    <orderEntry type="module" module-name="spring-context_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-instrument_main" scope="PROVIDED" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.61" level="project" />
-    <orderEntry type="module" module-name="spring-instrument_main" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.1.61" level="project" />
-    <orderEntry type="module" module-name="spring-instrument_test" production-on-test="" />
     <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-context_test" production-on-test="" />
     <orderEntry type="module" module-name="spring-jdbc_main" />
     <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module" module-name="spring-aop_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-tx_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-instrument_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-core_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-expression_test" production-on-test="" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.61" level="project" />
+    <orderEntry type="module" module-name="spring-instrument_main" />
+    <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.1.61" level="project" />
+    <orderEntry type="module" module-name="spring-instrument_test" production-on-test="" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.derby:derbyclient:10.14.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.derby:derby:10.14.1.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
     <orderEntry type="library" name="Gradle: com.h2database:h2:1.4.196" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
     <orderEntry type="library" name="Gradle: org.hsqldb:hsqldb:2.4.0" level="project" />
     <orderEntry type="module" module-name="spring-tx_main" />
     <orderEntry type="module" module-name="spring-beans_main" />
