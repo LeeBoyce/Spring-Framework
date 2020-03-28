@@ -37,40 +37,40 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.17.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.17.Final" level="project" />
     <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-transport:4.1.17.Final" level="project" />
-    <orderEntry type="module" module-name="spring-instrument_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-expression_main" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.17.Final" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.17.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.1.2.RELEASE" level="project" />
-    <orderEntry type="module" module-name="spring-oxm_main" scope="PROVIDED" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.1.17.Final" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.4.7.v20170914" level="project" />
-    <orderEntry type="module" module-name="spring-aop_main" />
-    <orderEntry type="module" module-name="spring-oxm_main" />
-    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-client:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.17.Final" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-security:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: io.projectreactor.ipc:reactor-netty:0.7.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.2" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.17.Final" level="project" />
-    <orderEntry type="module" module-name="spring-context_main" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlet:9.4.7.v20170914" level="project" />
-    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
-    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.4.7.v20170914" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-http:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.4.7.v20170914" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.17.Final" level="project" />
     <orderEntry type="module" module-name="spring-beans_main" />
+    <orderEntry type="module" module-name="spring-aop_main" />
     <orderEntry type="module" module-name="spring-instrument_main" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-buffer:4.1.17.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler-proxy:4.1.17.Final" level="project" />
+    <orderEntry type="module" module-name="spring-oxm_main" />
+    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.17.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-client:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.jetty:jetty-http:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.4.7.v20170914" level="project" />
+    <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlet:9.4.7.v20170914" level="project" />
+    <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.17.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: io.projectreactor.ipc:reactor-netty:0.7.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.17.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-transport:4.1.17.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.7.v20170914" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-socks:4.1.17.Final" level="project" />
+    <orderEntry type="module" module-name="spring-instrument_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: io.projectreactor:reactor-core:3.1.2.RELEASE" level="project" />
+    <orderEntry type="module" module-name="spring-oxm_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.7.v20170914" level="project" />
+    <orderEntry type="module" module-name="spring-expression_main" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.1.17.Final" level="project" />
     <orderEntry type="module" module-name="spring-core_main" />
     <orderEntry type="module-library">
       <library>

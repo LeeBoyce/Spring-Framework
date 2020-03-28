@@ -801,14 +801,18 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 		}
 
 		BeanDefinition oldBeanDefinition;
-
+		//beanDefinitionMap放置所有注册的Bean
 		oldBeanDefinition = this.beanDefinitionMap.get(beanName);
+
+		//如果bean名已存在
 		if (oldBeanDefinition != null) {
+			//不允许覆盖bean
 			if (!isAllowBeanDefinitionOverriding()) {
 				throw new BeanDefinitionStoreException(beanDefinition.getResourceDescription(), beanName,
 						"Cannot register bean definition [" + beanDefinition + "] for bean '" + beanName +
 						"': There is already [" + oldBeanDefinition + "] bound.");
 			}
+			//通过比较BeanRole.判断谁覆盖谁
 			else if (oldBeanDefinition.getRole() < beanDefinition.getRole()) {
 				// e.g. was ROLE_APPLICATION, now overriding with ROLE_SUPPORT or ROLE_INFRASTRUCTURE
 				if (this.logger.isWarnEnabled()) {
@@ -817,6 +821,7 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 							oldBeanDefinition + "] with [" + beanDefinition + "]");
 				}
 			}
+			//新bean覆盖旧bean
 			else if (!beanDefinition.equals(oldBeanDefinition)) {
 				if (this.logger.isInfoEnabled()) {
 					this.logger.info("Overriding bean definition for bean '" + beanName +
@@ -831,9 +836,12 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 							"] with [" + beanDefinition + "]");
 				}
 			}
+			//将bean放置beanDefinitionMap中
 			this.beanDefinitionMap.put(beanName, beanDefinition);
 		}
+		//beanName没有与beanDefinitionMap中的重复
 		else {
+			//非正常情况下，其他的Bean已经初始化，如果已经有bean初始化，则使用者已经在进行业务操作，无法保证对beanDefinitionMap、beanDefinitionNames、manualSingletonNames进行操作的一些列动作的线程安全，所以需要加锁。参考：https://blog.csdn.net/qq_41907991/article/details/97614337
 			if (hasBeanCreationStarted()) {
 				// Cannot modify startup-time collection elements anymore (for stable iteration)
 				synchronized (this.beanDefinitionMap) {
@@ -851,8 +859,11 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 			}
 			else {
 				// Still in startup registration phase
+				//bean放置beanDefinitionMap中
 				this.beanDefinitionMap.put(beanName, beanDefinition);
+				//记录bean名称
 				this.beanDefinitionNames.add(beanName);
+				//bean不需要手动注册
 				this.manualSingletonNames.remove(beanName);
 			}
 			this.frozenBeanDefinitionNames = null;

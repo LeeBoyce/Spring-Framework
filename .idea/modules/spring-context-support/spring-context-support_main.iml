@@ -36,15 +36,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: com.zaxxer:HikariCP-java6:2.3.13" level="project" />
     <orderEntry type="module" module-name="spring-tx_main" />
-    <orderEntry type="module" module-name="spring-jdbc_main" scope="PROVIDED" />
     <orderEntry type="library" name="Gradle: com.mchange:c3p0:0.9.5.2" level="project" />
-    <orderEntry type="module" module-name="spring-jdbc_main" />
-    <orderEntry type="module" module-name="spring-tx_main" scope="PROVIDED" />
-    <orderEntry type="library" name="Gradle: org.quartz-scheduler:quartz:2.3.0" level="project" />
     <orderEntry type="library" name="Gradle: net.sf.ehcache:ehcache:2.10.4" level="project" />
     <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="module" module-name="spring-jdbc_main" />
+    <orderEntry type="library" name="Gradle: com.zaxxer:HikariCP-java6:2.3.13" level="project" />
+    <orderEntry type="module" module-name="spring-jdbc_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-tx_main" scope="PROVIDED" />
+    <orderEntry type="library" name="Gradle: org.quartz-scheduler:quartz:2.3.0" level="project" />
     <orderEntry type="module" module-name="spring-aop_main" />
     <orderEntry type="module" module-name="spring-beans_main" />
     <orderEntry type="module" module-name="spring-expression_main" />

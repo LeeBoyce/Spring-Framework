@@ -37,27 +37,27 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="spring-beans_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-context_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-core_test" production-on-test="" />
     <orderEntry type="module" module-name="spring-context_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-aop_test" production-on-test="" />
-    <orderEntry type="library" name="Gradle: javax.ejb:javax.ejb-api:3.2" level="project" />
-    <orderEntry type="module" module-name="spring-instrument_main" />
     <orderEntry type="module" module-name="spring-instrument_test" production-on-test="" />
-    <orderEntry type="library" name="Gradle: javax.resource:javax.resource-api:1.7" level="project" />
-    <orderEntry type="module" module-name="spring-tx_main" />
-    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
-    <orderEntry type="module" module-name="spring-expression_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-jcl_test" production-on-test="" />
-    <orderEntry type="module" module-name="spring-expression_main" />
     <orderEntry type="module" module-name="spring-instrument_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="spring-context_main" />
+    <orderEntry type="library" name="Gradle: javax.resource:javax.resource-api:1.7" level="project" />
     <orderEntry type="module" module-name="spring-aop_main" />
+    <orderEntry type="module" module-name="spring-context_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-aop_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-tx_main" />
+    <orderEntry type="module" module-name="spring-aop_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-core_test" production-on-test="" />
+    <orderEntry type="library" name="Gradle: javax.ejb:javax.ejb-api:3.2" level="project" />
+    <orderEntry type="module" module-name="spring-expression_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="spring-expression_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-instrument_main" />
+    <orderEntry type="module" module-name="spring-jcl_test" production-on-test="" />
+    <orderEntry type="module" module-name="spring-expression_main" />
     <orderEntry type="library" name="Gradle: com.ibm.websphere:uow:6.0.2.17" level="project" />
     <orderEntry type="library" name="Gradle: javax.transaction:javax.transaction-api:1.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
     <orderEntry type="library" name="Gradle: javax.interceptor:javax.interceptor-api:1.2.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
     <orderEntry type="module" module-name="spring-beans_main" />
     <orderEntry type="module" module-name="spring-core_main" />
     <orderEntry type="module-library">
@@ -89,8 +89,8 @@
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="module" module-name="spring-jcl_main" />
     <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.7.9" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-core:2.10.0" level="project" />
     <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy-agent:1.7.9" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-core:2.10.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-core:2.3.0" level="project" />

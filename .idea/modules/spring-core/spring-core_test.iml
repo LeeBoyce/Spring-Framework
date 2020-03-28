@@ -38,13 +38,13 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.1.61" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.61" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.projectreactor:reactor-core:3.1.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: io.reactivex.rxjava2:rxjava:2.1.6" level="project" />
-    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.17.Final" level="project" />
-    <orderEntry type="module" module-name="spring-core_main" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.reactivestreams:reactive-streams:1.0.1" level="project" />
     <orderEntry type="library" name="Gradle: io.reactivex:rxjava-reactive-streams:1.2.1" level="project" />
     <orderEntry type="module" module-name="spring-jcl_test" production-on-test="" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.17.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.projectreactor:reactor-core:3.1.2.RELEASE" level="project" />
+    <orderEntry type="module" module-name="spring-core_main" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.reactivestreams:reactive-streams:1.0.1" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -75,8 +75,8 @@
     <orderEntry type="library" name="Gradle: com.fasterxml.woodstox:woodstox-core:5.0.3" level="project" />
     <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.7.9" level="project" />
     <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy-agent:1.7.9" level="project" />
-    <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.logging.log4j:log4j-core:2.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.xmlunit:xmlunit-core:2.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.23" level="project" />

@@ -235,6 +235,7 @@ public abstract class AbstractEnvironment implements ConfigurableEnvironment {
 	 * @see #ACTIVE_PROFILES_PROPERTY_NAME
 	 */
 	protected Set<String> doGetActiveProfiles() {
+		//通过spring.profile.active可以指定上下文profile
 		synchronized (this.activeProfiles) {
 			if (this.activeProfiles.isEmpty()) {
 				String profiles = getProperty(ACTIVE_PROFILES_PROPERTY_NAME);
@@ -326,11 +327,13 @@ public abstract class AbstractEnvironment implements ConfigurableEnvironment {
 	public boolean acceptsProfiles(String... profiles) {
 		Assert.notEmpty(profiles, "Must specify at least one profile");
 		for (String profile : profiles) {
+			//profiles检测可以取反的方式来判断.例如：@Profile("!usage_message").含义即当前环境非usage_message则返回true
 			if (StringUtils.hasLength(profile) && profile.charAt(0) == '!') {
 				if (!isProfileActive(profile.substring(1))) {
 					return true;
 				}
 			}
+
 			else if (isProfileActive(profile)) {
 				return true;
 			}
@@ -346,6 +349,7 @@ public abstract class AbstractEnvironment implements ConfigurableEnvironment {
 	protected boolean isProfileActive(String profile) {
 		validateProfile(profile);
 		Set<String> currentActiveProfiles = doGetActiveProfiles();
+		//profile是否包含在当前激活的profiles中
 		return (currentActiveProfiles.contains(profile) ||
 				(currentActiveProfiles.isEmpty() && doGetDefaultProfiles().contains(profile)));
 	}
